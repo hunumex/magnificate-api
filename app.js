@@ -13,7 +13,7 @@ db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 
 db.once('open', function() {
-  console.log("connecté à Mongoose")
+  console.log("connecté à Mongoose comme une mange")
 });
 
 
